@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(172, 73, 73);
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+h2{
+    margin: 5px;
+    text-align: center;
+    font-family:cursive;   
+}
+
+h3{
+    margin-top: 5px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.bt{
+    background-color: rgb(172, 73, 73);   
+    border-style: hidden;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.center_align{
+    text-align: center;
+}
+
+#coverimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+
+}
+#playimg{
+    height: 50px;
+    width: 60px;
+}
+#backwardimg{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
+#forwardimg{
+    margin:10px;
+    height: 30px;
+    width: 30px;
+}
+
+#playbar{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+}
+
+#Current_time{
+    display: inline-block;
+}
+
+#Total_duration{
+    display: inline-block;
+}
+
+#volume{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+

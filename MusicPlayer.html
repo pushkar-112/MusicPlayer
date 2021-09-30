@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="F:/Webd/MusicPlayer/MusicPlayer.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <h1>MusicPlayer</h1>
+    <img src="F:/Webd/MusicPlayer/img/cover.jpg" alt="cover"  id="coverimg">
+    <h2 id="song_name">Song Name</h2>
+    <h3 id="artist_name">Artist Name</h3> 
+    <div class="buttons">
+        <button class="bt" id="backwardbt" onclick="prevSong()"><img src="F:/Webd/MusicPlayer/img/step-backward.png" alt="previous" id="backwardimg"></button>  
+        <button class="bt" id="playbt" onclick="playOrPause()"><img src="F:/Webd/MusicPlayer/img/play-pause.png" alt="play" id="playimg"></button>
+        <button class="bt" id="forwardbt" onclick="nextSong()"><img src="F:/Webd/MusicPlayer/img/step-forward.png" alt="next" id="forwardimg"></button> 
+    </div>   
+    <form class="center_align">
+        <div id="Current_time">Time :</div>
+        <input type="range" id="playbar" name="playbar" min=1 max=100 onchange="playSliderTo()" >
+        <div id="Total_duration">Time :</div>
+        <input type="range" id="volume" name="vol" min=1 max=100 >
+      </form>    
+    <script src = "F:/Webd/MusicPlayer/MusicPlayer.js" charset="UTF-8"> </script>    
+</body>
+</html>
